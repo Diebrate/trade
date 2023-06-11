@@ -59,3 +59,4 @@ for t in pd.unique(data.ticker):
     portfolio_value[t] = cash + price * positions # append the result for this ticker
 
 # portfolio_value compares the strategy among different tickers
+# higher value means better performance on this ticker
